@@ -108,7 +108,7 @@ return [
     |
     */
 
-    'faker_locale' => 'en_US',
+    'faker_locale' => 'fa_IR',
 
     /*
     |--------------------------------------------------------------------------
@@ -187,7 +187,6 @@ return [
          */
         Laravel\Passport\PassportServiceProvider::class,
         \App\Providers\ResponseMacroServiceProvider::class,
-
         /*
          * Application Service Providers...
          */
@@ -211,7 +210,7 @@ return [
     */
 
     'aliases' => Facade::defaultAliases()->merge([
-        // 'ExampleClass' => App\Example\ExampleClass::class,
+        'Faker' => Ybazli\Faker\Facades\Faker::class,
     ])->toArray(),
 
 ];

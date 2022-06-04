@@ -22,8 +22,6 @@ return array(
     'user_login_successfully'     => 'با موفقبت وارد شدید',
     'user_register_successfully'     => 'با موفقبت ثبت نام انجام شد',
     'order_register_successfully'     => 'سفارش شما با موفقیت ثبت شد',
-    'sorry_food_finished'     => 'متاسفانه غذای مورد نظر به پایان رسیده است',
-    'food_not_available'     => 'متاسفانه فعلا غذا آماده نیست',
     'user_login_failed'     => 'خطا در ورود',
     'unauthenticated'  => 'عدم احراز هویت'
 );
