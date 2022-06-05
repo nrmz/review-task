@@ -8,7 +8,7 @@ use Illuminate\Validation\Rule;
 /**
  * @property mixed providerId
  */
-class ProductReviewRequest extends FormRequest
+class ReviewRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -28,15 +28,21 @@ class ProductReviewRequest extends FormRequest
     public function rules()
     {
         $rules['get'] =[
-            'sort_column' => ['sometimes', 'max:255', 'in:id,vote_avg,review_count,created_at,updated_at'],
+            'status' => ['sometimes', 'boolean'],
+            'product_id' => ['sometimes', 'exists:products,id'],
+            'sort_column' => ['sometimes', 'max:255', 'in:id,status,created_at,updated_at'],
             'is_sort_dir_desc' => ['sometimes'],
             'per_page' => ['sometimes', 'integer', 'min:5']
         ];
 
         $rules['post'] =[
             'product_id' => ['required', 'exists:products,id', 'integer'],
-            'only_user_that_bought_product' => ['required', 'boolean'],
-            'is_reviewable' => ['required', 'boolean'],
+            'vote' => ['required', 'integer'],
+            'comment' => ['required', 'min:10', 'max:800'],
+        ];
+
+        $rules['put'] =[
+            'status' => ['required', 'boolean'],
         ];
 
         return  $rules[strtolower($this->method())];

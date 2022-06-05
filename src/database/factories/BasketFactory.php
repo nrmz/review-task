@@ -2,13 +2,14 @@
 
 namespace Database\Factories;
 
-use App\Models\Provider;
+use App\Models\Product;
+use App\Models\User;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 /**
  * @extends \Illuminate\Database\Eloquent\Factories\Factory<\App\Models\Product>
  */
-class ProductFactory extends Factory
+class BasketFactory extends Factory
 {
     /**
      * Define the model's default state.
@@ -18,8 +19,8 @@ class ProductFactory extends Factory
     public function definition()
     {
         return [
-            'title' => $this->faker->title(),
-            'provider_id' => Provider::all()->random()->id,
+            'product_id' => Product::all()->random()->id,
+            'user_id' => User::all()->random()->id,
         ];
     }
 }

@@ -20,6 +20,7 @@ class ProductReviewFactory extends Factory
     {
         $products = Product::all();
         return [
+            'is_reviewable' => $this->faker->boolean(),
             'only_user_that_bought_product' => $this->faker->boolean(),
             'product_id' => $this->faker->unique()->numberBetween(1, $products->count()),
             'vote_avg' => 0,

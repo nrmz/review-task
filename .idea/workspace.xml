@@ -3,10 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="4864375e-7a9e-42aa-b256-aa2499aba3ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Resources/ProductCollection.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Resources/ProductCollection.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Resources/ProductResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Resources/ProductResource.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Models/Product.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Exceptions/Handler.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Requests/ProductReviewRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Requests/ProductReviewRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Resources/ProductReviewCollection.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Resources/ProductReviewCollection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Resources/ProductReviewResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Resources/ProductReviewResource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Models/ProductReview.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Models/ProductReview.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Repositories/ProductReviewRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Repositories/ProductReviewRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Services/ProductReviewService.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Services/ProductReviewService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/factories/ProductFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/factories/ProductFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/factories/ProductReviewFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/factories/ProductReviewFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/factories/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/factories/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/migrations/2022_06_05_121956_create_product_reviews_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/migrations/2022_06_05_121956_create_product_reviews_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/seeders/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/database/seeders/UserSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/seeders/UserSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lang/fa/messages.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/fa/messages.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -161,17 +173,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/Services" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/Http/Resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\review-task\src\app\Http\Resources" />
+      <recent name="D:\projects\review-task\src\database\factories" />
+      <recent name="D:\projects\review-task\src\database\seeders" />
       <recent name="D:\projects\review-task\src\app\Services" />
       <recent name="D:\projects\review-task\src\app\Repositories" />
-      <recent name="D:\projects\review-task\src\app\Models" />
-      <recent name="D:\projects\review-task\src\app\Http\Resources" />
-      <recent name="D:\projects\review-task\src\app\Http\Requests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\projects\review-task" />
@@ -188,7 +200,7 @@
       <updated>1654333149839</updated>
       <workItem from="1654333151107" duration="28745000" />
       <workItem from="1654381050618" duration="69000" />
-      <workItem from="1654381124232" duration="15581000" />
+      <workItem from="1654381124232" duration="42031000" />
     </task>
     <servers />
   </component>

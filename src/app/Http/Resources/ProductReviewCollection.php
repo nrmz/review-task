@@ -20,6 +20,7 @@ class ProductReviewCollection extends ResourceCollection
             'product_reviews' =>$this->collection->transform(function($product_review){
                 return [
                     'id' => $product_review->id,
+                    'is_reviewable' => $product_review->is_reviewable,
                     'only_user_that_bought_product' => $product_review->only_user_that_bought_product,
                     'product' => new ProductResource($product_review->product),
                     'vote_avg' => $product_review->vote_avg,

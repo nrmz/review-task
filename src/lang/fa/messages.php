@@ -17,6 +17,7 @@ return array(
     'server_error'     => 'اطلاعات ناقص است',
     'delete_successfully'     => 'اطلاعات حذف شد',
     'created'     => 'اطلاعات ثبت شد',
+    'forbidden'     => 'اجازه ثبت نظر ندارید',
     'invalid_chart_detail_id'     => 'جزيیات چارت نادرست است',
     'error_in_created'     => 'خطا در ثبت اطلاعات',
     'user_login_successfully'     => 'با موفقبت وارد شدید',

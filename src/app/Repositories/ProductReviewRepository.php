@@ -35,5 +35,15 @@ class ProductReviewRepository
         );
     }
 
+    public function updateProductReviewByProductId($product_id, $review_aggregate)
+    {
+        return ProductReview::where('product_id', $product_id)->update(
+            [
+                'vote_avg' => $review_aggregate['avg'] ?? 0,
+                'review_count' => $review_aggregate['count'] ?? 0,
+            ]
+        );
+    }
+
 
 }
