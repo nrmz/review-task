@@ -55,7 +55,6 @@ class Handler extends ExceptionHandler
 
     public function render($request, Throwable $e)
     {
-
         if ($e instanceof NotFoundHttpException || $e instanceof ModelNotFoundException) {
             return response()->error(
                 __('messages.not_found'),
@@ -71,15 +70,18 @@ class Handler extends ExceptionHandler
             );
         }
 
-//        if ($e instanceof \ErrorException) {
-//            return response()->error(
-//                __('messages.bad_request'),
-//                Response::HTTP_BAD_REQUEST,
-//                $e->getMessage()
-//            );
-//        }
+        if ($e instanceof \ErrorException) {
+            return response()->error(
+                __('messages.bad_request'),
+                Response::HTTP_BAD_REQUEST,
+                $e->getMessage()
+            );
+        }
 
-        return parent::render($request, $e);
+        return response()->error(
+            __('messages.bad_request'),
+            Response::HTTP_BAD_REQUEST
+        );
     }
 
     protected function unauthenticated($request, AuthenticationException $exception)

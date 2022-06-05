@@ -1,26 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ChangeListManager">
-    <list default="true" id="4864375e-7a9e-42aa-b256-aa2499aba3ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Models/Provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Models/Provider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/seeders/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/api.php" afterDir="false" />
-    </list>
-    <option name="SHOW_DIALOG" value="false" />
-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/src/composer.json</pharConfigPath>
-    <execution />
-  </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpIncludePathManager">
     <include_path>
       <path value="$PROJECT_DIR$/src/vendor/psr/http-message" />
       <path value="$PROJECT_DIR$/src/vendor/psr/log" />
@@ -150,48 +130,10 @@
       <path value="$PROJECT_DIR$/src/vendor/psr/http-factory" />
     </include_path>
   </component>
-  <component name="ProjectId" id="2A6bnYyUp7ZlC76w6Am1WyP4XDm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showLibraryContents" value="true" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app/Services" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="vue.rearranger.settings.migration" value="true" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\projects\review-task\src\app\Services" />
-      <recent name="D:\projects\review-task\src\app\Repositories" />
-      <recent name="D:\projects\review-task\src\app\Models" />
-      <recent name="D:\projects\review-task\src\app\Http\Resources" />
-      <recent name="D:\projects\review-task\src\app\Http\Requests" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\projects\review-task" />
-      <recent name="D:\projects\review-task\src\app\Http\Controllers\Auth" />
-    </key>
-  </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
-  <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="4864375e-7a9e-42aa-b256-aa2499aba3ec" name="Default Changelist" comment="" />
-      <created>1654333149839</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1654333149839</updated>
-      <workItem from="1654333151107" duration="28745000" />
-      <workItem from="1654381050618" duration="69000" />
-      <workItem from="1654381124232" duration="6502000" />
-    </task>
-    <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/src/vendor/autoload.php" />
+    </phpunit_settings>
   </component>
 </project>
