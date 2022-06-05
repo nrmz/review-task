@@ -6,7 +6,7 @@ use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class ProductResource extends JsonResource
+class ProductReviewResource extends JsonResource
 {
     /**
      * Transform the resource into an array.
@@ -18,8 +18,10 @@ class ProductResource extends JsonResource
     {
         return [
             'id' => $this->id,
-            'title' => $this->title,
-            'provider' => new ProviderResource($this->provider),
+            'only_user_that_bought_product' => $this->only_user_that_bought_product,
+            'product' => new ProductResource($this->product),
+            'vote_avg' => $this->vote_avg,
+            'review_count' => $this->review_count,
             'created_at' => $this->created_at ? $this->created_at->format('Y/m/d') : '',
             'updated_at' => $this->updated_at ?  $this->updated_at->format('Y/m/d') : ''
         ];

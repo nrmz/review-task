@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4864375e-7a9e-42aa-b256-aa2499aba3ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Exceptions/Handler.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Exceptions/Handler.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Models/Provider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Models/Provider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Resources/ProductCollection.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Resources/ProductCollection.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Http/Resources/ProductResource.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Resources/ProductResource.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Models/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Models/Product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/database/seeders/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/database/seeders/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/api.php" afterDir="false" />
     </list>
@@ -187,7 +188,7 @@
       <updated>1654333149839</updated>
       <workItem from="1654333151107" duration="28745000" />
       <workItem from="1654381050618" duration="69000" />
-      <workItem from="1654381124232" duration="6502000" />
+      <workItem from="1654381124232" duration="15581000" />
     </task>
     <servers />
   </component>

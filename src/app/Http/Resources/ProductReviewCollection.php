@@ -6,7 +6,7 @@ use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Http\Request;
 use Illuminate\Http\Resources\Json\ResourceCollection;
 
-class ProductCollection extends ResourceCollection
+class ProductReviewCollection extends ResourceCollection
 {
     /**
      * Transform the resource collection into an array.
@@ -17,13 +17,15 @@ class ProductCollection extends ResourceCollection
     public function toArray($request)
     {
         return [
-            'products' =>$this->collection->transform(function($product){
+            'product_reviews' =>$this->collection->transform(function($product_review){
                 return [
-                    'id' => $product->id,
-                    'title' => $product->title,
-                    'provider' => new ProviderResource($product->provider),
-                    'created_at' => $product->created_at ? $product->created_at->format('Y/m/d') : '',
-                    'updated_at' => $product->updated_at ?  $product->updated_at->format('Y/m/d') : ''
+                    'id' => $product_review->id,
+                    'only_user_that_bought_product' => $product_review->only_user_that_bought_product,
+                    'product' => new ProductResource($product_review->product),
+                    'vote_avg' => $product_review->vote_avg,
+                    'review_count' => $product_review->review_count,
+                    'created_at' => $product_review->created_at ? $product_review->created_at->format('Y/m/d') : '',
+                    'updated_at' => $product_review->updated_at ?  $product_review->updated_at->format('Y/m/d') : ''
                 ];
             }),
             'pagination' => [
