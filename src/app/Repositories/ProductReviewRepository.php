@@ -24,7 +24,12 @@ class ProductReviewRepository
 
     public function getByProductId($productId)
     {
-        return $this->model->where('product_id', $productId)->firstOrFail();
+        return $this->model->where('product_id', $productId)
+            ->with(['reviews'=>function($query) {
+                return $query->where('status', 1)
+                    ->orderBy('created_at', 'desc')
+                    ->limit(env('show_review_count', 3));
+            }])->firstOrFail();
     }
 
     public function create($productReviewData)

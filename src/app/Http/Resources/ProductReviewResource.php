@@ -23,6 +23,7 @@ class ProductReviewResource extends JsonResource
             'product' => new ProductResource($this->product),
             'vote_avg' => $this->vote_avg,
             'review_count' => $this->review_count,
+            'reviews' => $this->reviews,
             'created_at' => $this->created_at ? $this->created_at->format('Y/m/d') : '',
             'updated_at' => $this->updated_at ?  $this->updated_at->format('Y/m/d') : ''
         ];
