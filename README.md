@@ -114,6 +114,14 @@
 
 ```docker-compose run --rm artisan erd:generate```
 
+<div lang="fa" dir="rtl">
+- با استفاده از اطلاعات زیر می توانید با متد login در پست من وارد شوید
+</div>
+
+```"email": "test@example.com"```
+
+```"password": "password"```
+
 ## پست من
 
 <div lang="fa" dir="rtl">

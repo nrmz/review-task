@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4864375e-7a9e-42aa-b256-aa2499aba3ec" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/config/laravel-erd.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/docs/erd/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/views/vendor/erd/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/review-task.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/review-task.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -194,10 +197,22 @@
       <workItem from="1654333151107" duration="28745000" />
       <workItem from="1654381050618" duration="69000" />
       <workItem from="1654381124232" duration="49539000" />
+      <workItem from="1654491662833" duration="370000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
