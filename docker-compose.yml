@@ -23,6 +23,8 @@ services:
     image: mysql:5.7
     env_file:
       - ./env/mysql.env
+    ports:
+      - '127.0.0.1:3306:3306'
   composer:
     build: 
       context: ./dockerfiles
